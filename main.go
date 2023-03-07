@@ -3,13 +3,14 @@ package main
 import (
 	"errors"
 	"fmt"
+	"log"
+	"os"
+	"time"
+
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/terminal"
 	"github.com/fatih/color"
 	"github.com/lukasjarosch/go-docx"
-	"log"
-	"os"
-	"time"
 )
 
 type answers struct {
